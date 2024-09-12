@@ -1,7 +1,9 @@
 body {
   background-color: rgb(3, 192, 255);
 }
-
+body {
+  background-image: url("paper.gif");
+}
 h1 {
   color: rgb(56, 49, 49);
   text-align: center;
@@ -13,9 +15,7 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
-body {
-  background-image: url("paper.gif");
-}
+
 <style>.dropdown {
   position: relative;
   display: inline-block;
@@ -39,7 +39,7 @@ body {
 <div class="dropdown">
   <span>Mouse over me</span>
   <div class="dropdown-content">
-   <a>href="./index2.html">My index2.html page<a>
+     <p>Hello World !</p>
   </div>
 </div>
 
