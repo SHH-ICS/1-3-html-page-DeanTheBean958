@@ -1,5 +1,5 @@
 body {
-  background-image: url(8jql6xz4DHGM2yB9UfnFXZ.jpg);
+  background-color: lightblue;
 }
 h1 {
   color: rgb(56, 49, 49);
