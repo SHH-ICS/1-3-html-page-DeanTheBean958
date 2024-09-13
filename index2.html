@@ -1,19 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
-<style>body {
-  background-image: url(8jql6xz4DHGM2yB9UfnFXZ.jpg);
-}</style>
-  <meta charset="utf-8">
-  <meta name="description" content="My first webpage, with CSS">
-  <meta name="keywords" content="mths, ics2o">
-  <meta name="author" content="Mr. Coxall">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <link rel="stylesheet" href="./css/styles.css">
-  <title>Gambling gudie 2</title>
 </head>
 <body>
-  <h1>gambling guide 2</h1>
+{
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+background-color: #666;
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+float: left;
+width: 30%;
+background: #ccc;
+padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+article {
+float: left;
+padding: 20px;
+width: 70%;
+background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+section::after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Style the footer */
+footer {
+background-color: #777;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small
+screens */
+@media (max-width: 600px) {
+nav, article {
+width: 100%;
+height: auto;
+}
+
+</head>
+<body>
+  <header>
+  <h1>guide to Astoneer 2</h1>
+  </header>
+
   <p>don't just bet 4 bet all your money</p>
   <p> you might get more then 8 dallors</p>
   <p>
